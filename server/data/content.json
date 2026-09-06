@@ -1,0 +1,116 @@
+{
+  "stamp": "2026-09-06T00:00:00.000Z",
+
+  "settings": {
+    "accentColor": "#35a207",
+    "bgColor": "oklch(8% 0.01 60)",
+    "showFilmBorder": true,
+    "nameSize": 88
+  },
+
+  "home": {
+    "photo": "/uploads/24DA8994-CBFB-4C6F-A353-262D3D19F048.jpg",
+    "nameFirst": "Yeowon",
+    "nameLast": "Jie",
+    "line1": "M.A. Candidate, College of Media & Communication Studies",
+    "line2": "Human-AI Interaction · Human-Machine Communication",
+    "location": "Seoul, Republic of Korea",
+    "hint": "click to crumple",
+    "hintCrumpling": "scrunching...",
+    "hintThrow": "now throw me!"
+  },
+
+  "video": {
+    "src": "/uploads/_talkv_wzCaYDzXat_6khSHrsbkeuiHy8jcKD0wk_talkv_high.MP4",
+    "poster": "/uploads/video-thumb.jpg",
+    "heading": "Most Recent Venture",
+    "kicker": "14th Honors Symposium for Asian Graduate Students in Communication Research",
+    "caption": "Applying the Compensatory Internet Use Model to Social Chatbots",
+    "button": "I want more!"
+  },
+
+  "sections": ["research", "press", "about", "contact"],
+
+  "research": {
+    "label": "Research Projects",
+    "hint": "click any note to read more →"
+  },
+
+  "projects": [
+    {
+      "year": "2026",
+      "status": "ongoing",
+      "color": "yellow",
+      "title": "Why Date Humans, When You Have AI?",
+      "fullTitle": "Why Date Humans, When You Have AI?: Public Performances & Perceptions of Human-AI Romance",
+      "subtitle": "",
+      "type": "ICCM @ Nanyang Technological University",
+      "role": "1st Author",
+      "description": "How human-AI romantic relationships are publicly performed and perceived.",
+      "tags": ["HMC", "AI Romance"],
+      "link": ""
+    },
+    {
+      "year": "2026",
+      "status": "ongoing",
+      "color": "pink",
+      "title": "Compensatory Internet Use & Social Chatbots",
+      "fullTitle": "Applying the Compensatory Internet Use Model to Social Chatbots",
+      "subtitle": "",
+      "type": "Academic Conference",
+      "role": "1st Author",
+      "description": "How compensatory motivations drive users toward social chatbots.",
+      "tags": ["HCI", "Chatbots", "ICUM"],
+      "link": ""
+    },
+    {
+      "year": "2025",
+      "status": "ongoing",
+      "color": "green",
+      "title": "Neural Responses to Robots vs. Humans",
+      "fullTitle": "Comparing Neural Responses to Human and Social Robot Interlocutors",
+      "subtitle": "An EEG Study on CASA and Perceived Pleasantness, Importance, and Cooperativeness",
+      "type": "Conference Paper",
+      "role": "2nd Author · Participant Manager",
+      "description": "EEG study on how the brain processes social robots vs. humans.",
+      "tags": ["EEG", "CASA", "Robotics"],
+      "link": ""
+    },
+    {
+      "year": "2025",
+      "status": "completed",
+      "color": "blue",
+      "title": "ChatGPT in Student Learning",
+      "fullTitle": "Motivations and Affordances of ChatGPT Usage for College Students' Learning",
+      "subtitle": "",
+      "type": "Paper",
+      "role": "3rd Author · Thematic Coding",
+      "description": "Why and how college students bring ChatGPT into their learning routines.",
+      "tags": ["AI", "Education"],
+      "link": ""
+    }
+  ],
+
+  "press": {
+    "label": "Press & Media",
+    "empty": "press coverage coming soon",
+    "items": []
+  },
+
+  "about": {
+    "label": "About",
+    "photo": "/uploads/24DA8994-CBFB-4C6F-A353-262D3D19F048.jpg",
+    "heading": "Hi, I'm Yeowon.",
+    "paragraphs": [
+      "I'm an M.A. Candidate researching how people interact with AI and technology. My work sits at the intersection of Human-AI Interaction (HAII) and Human-Machine Communication (HMC).",
+      "I'm particularly interested in how people form relationships with social chatbots, how neural responses differ across human and artificial interlocutors, and how AI tools are reshaping the ways students learn."
+    ]
+  },
+
+  "contact": {
+    "label": "Contact",
+    "email": "jessi2001@korea.ac.kr",
+    "note": "Feel free to reach out about research collaborations, questions, or anything else.",
+    "links": []
+  }
+}
