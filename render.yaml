@@ -1,0 +1,17 @@
+# Render.com blueprint — https://render.com/docs/blueprint-spec
+# Lets Render auto-configure this as a web service when you connect the repo
+# via "New +" → "Blueprint" and point it at this repository.
+services:
+  - type: web
+    name: yeowon-jie-site
+    env: node
+    plan: free
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    envVars:
+      - key: EDIT_PASSWORD
+        sync: false # set this yourself in the Render dashboard — don't commit it
+    disk:
+      name: site-data
+      mountPath: /opt/render/project/src/server/data
+      sizeGB: 1

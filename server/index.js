@@ -26,7 +26,9 @@ const CONTENT_PATH = path.join(DATA_DIR, 'content.json');
 const UPLOADS_DIR = path.join(__dirname, 'uploads');
 const DIST_DIR = path.join(ROOT, 'dist');
 
-const PORT = process.env.API_PORT || 8787;
+// Most hosts (Render, Railway, Fly.io, ...) assign the port via $PORT.
+// API_PORT is the local-dev-only name (kept distinct from Vite's own port).
+const PORT = process.env.PORT || process.env.API_PORT || 8787;
 const EDIT_PASSWORD = process.env.EDIT_PASSWORD || 'change-me-please';
 const TOKEN_TTL_MS = 12 * 60 * 60 * 1000; // 12 hours
 
